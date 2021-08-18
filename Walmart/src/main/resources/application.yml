@@ -1,0 +1,23 @@
+
+server:
+  port: 9028
+  
+spring:
+  datasource:
+    url: jdbc:postgresql://${TRAINING_DB_ENDPOINT}/walmart
+    username: ${TRAINING_DB_USERNAME}   
+    password: ${TRAINING_DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+        jdbc:
+          lob:
+            non_contextual_creation: true
+
