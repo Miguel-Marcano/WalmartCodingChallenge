@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-walmart-dev-200127-authRole",
+      "UnauthRoleArn": "arn:aws:iam::289190576204:role/amplify-walmart-dev-200127-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::289190576204:role/amplify-walmart-dev-200127-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-walmart-dev-200127-deployment",
+      "UnauthRoleName": "amplify-walmart-dev-200127-unauthRole",
+      "StackName": "amplify-walmart-dev-200127",
+      "StackId": "arn:aws:cloudformation:us-east-1:289190576204:stack/amplify-walmart-dev-200127/1c4a5290-fe25-11eb-83fb-124c09213289",
+      "AmplifyAppId": "dfhg3do9zuoii"
+    },
+    "categories": {
+      "auth": {
+        "walmart356c83df": {}
+      }
+    }
+  },
+  "mick": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-walmart-mick-213009-authRole",
+      "UnauthRoleArn": "arn:aws:iam::289190576204:role/amplify-walmart-mick-213009-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::289190576204:role/amplify-walmart-mick-213009-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-walmart-mick-213009-deployment",
+      "UnauthRoleName": "amplify-walmart-mick-213009-unauthRole",
+      "StackName": "amplify-walmart-mick-213009",
+      "StackId": "arn:aws:cloudformation:us-east-2:289190576204:stack/amplify-walmart-mick-213009/80b21860-fe31-11eb-a040-027b7abf393a",
+      "AmplifyAppId": "d28tu86n0l1hjf"
+    },
+    "categories": {
+      "auth": {
+        "walmart356c83df": {}
+      }
+    }
+  }
+}

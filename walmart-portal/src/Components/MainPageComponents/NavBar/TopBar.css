@@ -1,0 +1,67 @@
+.topNavBarContainer{
+    height: 60px;
+    width: 100%;
+    color:white;
+    background-image: linear-gradient(rgb(93, 162, 202),rgb(39, 69, 204), rgb(56, 201, 133));
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+
+.topNavBarLeft{
+    font-size: 40px;
+    flex:3;
+    display: flex;
+    align-items: center;
+}
+
+.topNavBarCenter{
+    flex:4
+}
+
+.searchIcon{
+    font-size: 18px !important;
+    color: black;
+    margin-left: 10px;
+    
+}
+.searchInput{
+    width: 95%;
+    outline:none;
+    border: none;
+}
+.topNavBarRight{
+    flex:4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topNavBarLinks{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.toplink {
+    margin-right: 40px;
+}
+.topNavBarIcons{
+    display: flex;
+}
+
+.topNavBarIcon{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.topNavBarPic {
+    width: 32px;
+    height: 32px;
+}
+
+.tapNavBarName {
+    margin-right: -30px;
+}
